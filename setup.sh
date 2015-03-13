@@ -1,5 +1,6 @@
 #! /bin/bash
 apt-get install lib32gcc1 -f
+apt-get install screen -f
 mkdir ../steam
 cd ../steam
 wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
